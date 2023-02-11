@@ -1,11 +1,14 @@
 import "./App.css";
-import Logo from "../components/logo";
+import Logo from "../components/Logo";
+import Card from "../components/Card";
 
 function App() {
   return (
     <>
-      <Logo />
-      <Card />
+      <Logo width={90} />
+      <Card>
+        
+      </Card>
     </>
   );
 }

@@ -1,5 +1,5 @@
-const Logo = () => {
-  return <img src="https://placehold.it/500/500"></img>;
+const Logo = ({ width }) => {
+  return <img width={width} src="https://placehold.it/500/500"></img>;
 };
 
 export default Logo;
