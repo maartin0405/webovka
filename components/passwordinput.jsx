@@ -2,7 +2,6 @@ const PasswordInput = () => {
   return (
     <>
       <input />
-      <input />
     </>
   );
 };

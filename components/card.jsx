@@ -9,6 +9,8 @@ const Card = () => {
       <h1>Take your business to a new level.</h1>
       <p>create a new account</p>
       <Input />
+      <Input />
+      <PasswordInput />
       <PasswordInput />
       <Buttons />
       <Checkbox />
