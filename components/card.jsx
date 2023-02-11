@@ -1,5 +1,7 @@
 import Input from "./input";
 import PasswordInput from "./passwordinput";
+import Buttons from "./buttons";
+import Checkbox from "./checkbox";
 
 const Card = () => {
   return (
@@ -8,6 +10,8 @@ const Card = () => {
       <p>create a new account</p>
       <Input />
       <PasswordInput />
+      <Buttons />
+      <Checkbox />
     </>
   );
 };
